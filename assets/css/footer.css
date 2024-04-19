@@ -1,0 +1,32 @@
+.footer{
+    background-color: #353535;
+   
+     h2{
+        font-family: 'Shrikhand';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26.24px;
+        color: #ffffff;
+        padding: 3% 0% 3% 5%;
+             
+        }
+    ul{
+        padding-left: 5%;
+        padding-bottom: 1%;
+        
+        li{ padding-bottom: 2%;
+            list-style-type: none;
+        }
+    
+        h3{
+            color:#ffffff;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 18.75px;
+        }
+    }
+    
+}
+
+

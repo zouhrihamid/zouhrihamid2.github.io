@@ -1,0 +1,122 @@
+@import "./loader.css";
+@import "./header.css";
+@import './localization.css';
+@import './reserve.css';
+@import './function.css';
+@import './functioning.css';
+@import './restaurant-cards.css';
+@import './footer.css';
+@import './image-menu.css';
+@import './menu.css';
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+
+@media  (min-width:768px) {
+  
+.logo-title {
+     padding: 1% ;
+    }
+.functioning{ 
+    h2{
+      padding: 3% 0% 5% 8%;
+    }
+  .btn-functioning{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+     margin-left: 3%;
+      
+    }
+  .title-functioning {
+   padding-left: 1%;
+    }
+}
+  
+
+    
+.title-restaurant{
+        padding-left: 9%;
+        padding-top:3%;
+      
+    }
+.restaurant-cards{
+      display: flex;
+      flex-direction: row;
+     justify-content: space-around;
+     flex-wrap: wrap;
+    }
+
+.card{
+         width: 37vw;
+         height: 57lcvh;
+         margin-bottom: 15%;
+         
+    }
+.footer{
+    display: flex;
+    justify-items: center;
+    height: 114px;
+    flex-direction: row-reverse;
+    padding-right: 5%;
+  
+    h2{
+      display: flex;
+     text-align: center;
+      padding-top: 59px;
+     
+   }
+   
+   ul{
+    display: flex;
+    width: 680px;
+    height: 114px;
+    padding-top: 60px;
+   }
+  
+   li{
+    display: inline-block;
+    padding-right: 1em;
+   }
+  }
+
+  .logo-title2 {
+    display: flex;
+    justify-content:center;      
+   }
+   
+   .heart{
+    padding-left: 3rem;
+   }
+
+
+
+
+
+
+.menu{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.header2{
+  display: flex;
+
+  }
+  .arrow{
+    padding-left: 1em;
+    padding-top: 0.8em;
+    padding-right: 40%;
+    Font-size: 1.3em;
+  }
+ }
+
